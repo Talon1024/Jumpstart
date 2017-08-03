@@ -20,8 +20,17 @@ h3 {
 .jumbotron-bike {
   background-image: url(../images/jumbotron-bike.jpg);
 }
+.jumbotron-beer {
+  background-image: url(../images/jumbotron-beer.jpg);
+}
+.jumbotron-flowers {
+  background-image: url(../images/jumbotron-flowers.jpg);
+}
+.jumbotron-duffel {
+  background-image: url(../images/jumbotron-duffel.jpg);
+}
 
-#mainjumbotron {
+.jumbotron {
   padding: 11.85rem 0;
   margin-top: 50px;
 }
