@@ -7,7 +7,8 @@ $(document).ready(function () {
     pauseOnFocus: false,
     pauseOnHover: false,
     pauseOnDotsHover: false,
-    adaptiveHeight: false
+    adaptiveHeight: false,
+    touchMove: false
   });
 
   var scrollPrevPos = 0;
