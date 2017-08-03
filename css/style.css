@@ -32,10 +32,22 @@ h3 {
 
 .jumbotron {
   padding: 11.85rem 0;
+  height: 50rem;
+}
+
+.jumbotron-bike .slide {
+  width: 51.3rem;
+}
+
+.jumbotron-beer .slide, .jumbotron-duffel .slide {
+  width: 60rem;
+}
+
+.jumbotron-flowers .slide {
+  width: 64rem;
 }
 
 .slide {
-  width: 51.3rem;
   margin: 0 auto;
   color: white;
   text-align: center;
@@ -51,7 +63,7 @@ h3 {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.slide .btn {
+.carousel .btn {
   padding: 1.3rem 0;
   text-align: center;
   background-color: #399bd1;
@@ -59,13 +71,16 @@ h3 {
   width: 11.4rem;
   margin: 0 auto;
   margin-top: 2.8rem;
+  position: absolute;
+  bottom: 10rem;
+  left: calc(50% - 5.7rem);
 }
 
-.slide .btn:hover {
+.carousel .btn:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
-.slide .btn:active {
+.carousel .btn:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -133,7 +148,7 @@ h3 {
 
 @media only screen and (max-width: 768px) {
   .navbar-brand { display: none; }
-  .slide {
+  .jumbotron-bike .slide, .jumbotron-beer .slide, .jumbotron-duffel .slide, .jumbotron-flowers .slide {
     width: 100%;
   }
   .slide h1 {

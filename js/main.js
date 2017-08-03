@@ -8,7 +8,8 @@ $(document).ready(function () {
     pauseOnHover: false,
     pauseOnDotsHover: false,
     adaptiveHeight: false,
-    touchMove: false
+    touchMove: false,
+    slide: '.jumbotron'
   });
 
   var scrollPrevPos = 0;
