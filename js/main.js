@@ -16,18 +16,17 @@ $(document).ready(function () {
 
   $(this).scroll(function (e) {
     var scrollCurPos = $(this).scrollTop();
+    // console.log("scrollCurPos", scrollCurPos);
+    // console.log("scrollPrevPos", scrollPrevPos);
     if (scrollCurPos - scrollPrevPos >= 50) {
       navbar.animate({
         top: -navbarHeight
-      }, 150, "swing", function () {
-        scrollPrevPos = scrollCurPos;
-      });
+      }, 150);
     } else if (scrollPrevPos - scrollCurPos >= 50) {
       navbar.animate({
         top: 0
-      }, 150, "swing", function () {
-        scrollPrevPos = scrollCurPos;
-      });
+      }, 150);
     }
+    scrollPrevPos = scrollCurPos;
   });
 });
