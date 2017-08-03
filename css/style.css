@@ -5,6 +5,11 @@ html {
   font-family: "Open Sans";
 }
 
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
 h3 {
   font-size: 1.3rem;
   font-weight: bold;
@@ -31,13 +36,6 @@ h3 {
 .slide h1 {
   font-family: Monoton;
   font-size: 7.1rem;
-}
-
-.slide h2 {
-  font-size: 2rem;
-}
-
-.slide h1 {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
@@ -68,14 +66,17 @@ h3 {
   width: 100%;
 }
 
-#projects img {
-  opacity: 0.8;
+#featproj {
+  margin: 20px 0;
 }
 
-h2 {
-  font-size: 1.7rem;
-  font-weight: bold;
-  margin: 20px 0;
+.featproj h3 {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+#projects img {
+  opacity: 0.8;
 }
 
 #productcategories {
