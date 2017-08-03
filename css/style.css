@@ -88,19 +88,23 @@ h3 {
   margin-bottom: 5.85rem;
 }
 
-#gigli {
+.gigli-section {
   background-color: #f3f3f3;
   padding: 5.2rem 0;
   margin-bottom: 0;
   text-align: center;
 }
 
-.gigli {
+.gigli-content {
   margin: 0 auto;
   width: 42rem;
 }
 
-.gigli h1 {
+.gigli-content h1 {
   font-size: 2.5rem;
   font-weight: bold;
+}
+
+.gigli-content p {
+  margin: 1.4rem 0;
 }
