@@ -1,0 +1,105 @@
+/* ========== Global ========== */
+
+html {
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* ========== Jumbotron ========== */
+
+.jumbotron-bike {
+  background-image: url(../images/jumbotron-bike.jpg);
+}
+
+#mainjumbotron {
+  padding: 11.85rem 0;
+  margin-top: 50px;
+}
+
+.jumbotron .slide {
+  width: 51.3rem;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+.slide h1 {
+  font-family: Monoton;
+  font-size: 7.1rem;
+}
+
+.slide h2 {
+  font-size: 2rem;
+}
+
+.slide h1 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.slide .btn {
+  padding: 1.3rem 0;
+  text-align: center;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  width: 11.4rem;
+  margin: 0 auto;
+  margin-top: 2.8rem;
+}
+
+.slide .btn:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.slide .btn:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+/* ========== Main section ========== */
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+#projects img {
+  opacity: 0.8;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#productcategories {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#projects {
+  margin-bottom: 5.85rem;
+}
+
+#gigli {
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.gigli {
+  margin: 0 auto;
+  width: 42rem;
+}
+
+.gigli h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
