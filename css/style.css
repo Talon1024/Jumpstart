@@ -63,17 +63,20 @@ h3 {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.carousel > .button-container {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  bottom: 10rem;
+  justify-content: center;
+}
+
 .carousel .btn {
   padding: 1.3rem 0;
   text-align: center;
   background-color: #399bd1;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   width: 11.4rem;
-  margin: 0 auto;
-  margin-top: 2.8rem;
-  position: absolute;
-  bottom: 10rem;
-  left: calc(50% - 5.7rem);
 }
 
 .carousel .btn:hover {
